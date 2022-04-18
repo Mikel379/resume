@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia:wght@300&display=swap');
+
+body {
+    font-family: "Anek Odia", sans-serif;
+    font-size: 16px;
+    font-weight: normal
+    
+
+}
+.container {
+    max-width: 750px;
+    margin: auto;
+    
+}
+.card h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+    
+}
+
+a {
+    color:rgb(156, 40, 150);
+    text-decoration: none;  
+    cursor: pointer;
+    opacity: 0.8;
+}
+a:hover {
+    color: rgb(32, 35, 43);
+    text-decoration: underline;
+    
+}
+    a:visited {
+        color: rgb(175, 129, 12);
+    }
+    .avatar {
+        margin-left: 150px;
+        width: 450px;
+        border-radius: 20px;
+        margin-bottom: 15px;
+        box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+       
+    }
+    .me {
+        border-radius: 40px;
+        padding: 10px 15px ;
+        margin: 10px;
+        text-align: left;
+    }
+    .me td {
+        padding: 1px;
+        color: rgb(238, 171, 147);
+            margin-bottom: 50px;}
+
+     .me td:nth-child(1) {
+         color:darkorange ;
+     }      
+        
+     .me td:nth-child(3) {
+        color:darkorange ;
+    }      
+       
+
+    .me1 {
+        border-radius: 40px;
+        padding: 10px 15px ;
+        margin: 10px;
+        text-align: left;
+        
+    }
+
+    .me1 li {
+    padding: 1px;
+    list-style: none;
+    text-align: left;
+ 
+    }
+    .bg-green {
+        background: rgb(109, 139, 109);
+        padding: 10px 20px ;
+    }
+    .bg-blue {
+        background: blue;
+        }
+    .bg-red {
+        background: rgb(182, 127, 127);
+    }
+    .bg-pink{
+        background: rgba(140, 145, 120, 0.836);
+        border-radius: 20px;
+        padding: 15px 20px ;
+        margin-bottom: 15px;
+    }
+    .btn {
+        background:rgb(105, 92, 50);
+        padding: 15px 20px;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+
+    .feedback h2 {
+     text-align: center;
+    }
+
+.form-group {
+margin-bottom: 20px;
+display: flex;
+
+}
+
+.form-group .form1 {
+display: inline-block;
+margin-right: 20px;
+width: 50%
+}
+
+    .form1 label {
+    display: block;
+    font-size: 17px;
+    color: beige;
+    }
+
+    .form1 input, .form1 textarea {
+        width: 100%;
+        box-sizing: border-box;
+        border: none;
+        background: transparent;
+        border-bottom: 1px solid black;
+        color: black;
+        padding: 15px 0 10px;
+        outline: none;
+        font-family: inherit;
+    }
